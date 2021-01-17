@@ -1,0 +1,223 @@
+body {
+  font-family: "Montserrat";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* title section */
+#title {
+  background-color: #ff4c68;
+  position: relative;
+
+}
+
+#title>.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* nabar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 13px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+#logo {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+
+/* title */
+
+
+.row {
+  margin: 0 0 0 0;
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+/* Download-button */
+.Download-button {
+  margin: 8% 2% 0 0;
+}
+
+.row1{
+  margin-bottom: 5%;
+}
+
+/* title-img */
+.puppy {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+
+}
+
+/* features-section */
+#features {
+  margin: auto;
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.f-box {
+  padding: 2.5%;
+  text-align: center;
+}
+
+.f-box p {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+#features .icons:hover {
+  color: #ff4c68;
+}
+
+#features .icons {
+  padding-bottom: 5%;
+  color: #ef8172;
+}
+
+#features h3 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+/* testimonials-section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15% 0 15%;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 2%;
+
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5%;
+}
+
+#pricing .btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+
+
+/* call to action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 15% 11%;
+}
+
+
+
+#footer{
+  text-align: center;
+  padding: 8% 0 6% ;
+}
+
+#footer p{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+#footer i{
+  padding: 0 0.7% 1.8% 0.7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+  .puppy{
+    transform: rotate(0);
+    position: static;
+
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .carousel-inner{
+    height: 520px;
+  }
+
+
+}
